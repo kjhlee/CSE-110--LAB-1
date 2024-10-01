@@ -1,0 +1,68 @@
+p {
+    font-size: 28px;
+}
+div{
+    display: inline-block;
+    width: 100%;
+}
+#section1, #section3{
+    background-color: rgb(245, 240, 230);
+}
+#section2{
+    color: white;
+    background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: #182b49;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+li a:hover {
+    background-color: #182b49;
+    color:white;
+}
+
+#navbar{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+#section1, #section2, #section3 {
+    scroll-margin-top: 144px;
+}
+#navbar img{
+    max-width: 400px;
+}
+
+#wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.one, .two, .three, .four{
+    color: white;
+    padding: 10px;
+    max-height: 500px;
+    font-size: 28px;
+    background-color: #182b49;
+}
+
+
